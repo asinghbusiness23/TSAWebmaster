@@ -495,16 +495,16 @@ const SmallScreenCarousel = ({
       >
         <motion.h2
           variants={textVariants}
-          className="font-bold text-2xl sm:text-3xl mb-4"
+          className="font-bold text-2xl sm:text-3xl mb-4 text-black"
         >
           {featuredCareers[activeIndex].name}
         </motion.h2>
-        <motion.p variants={textVariants} className="text-base sm:text-lg mb-6">
+        <motion.p variants={textVariants} className="text-base sm:text-lg mb-6 text-black">
           {featuredCareers[activeIndex].description}
         </motion.p>
         <a
           href="/exploreResources"
-          className="inline-block py-2 px-6 border-2 rounded-2xl hover:bg-white transition-all duration-150"
+          className="inline-block py-2 px-6 border-2 rounded-2xl hover:bg-white transition-all duration-150 text-black"
         >
           Learn More
         </a>

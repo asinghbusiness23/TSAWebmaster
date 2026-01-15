@@ -262,7 +262,7 @@ const Navbar = () => {
               />
               <NavbarItem2
                 name="References"
-                link=""
+                link="/references"
                 onClick={() => setOpen(false)}
               />
 

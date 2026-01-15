@@ -108,7 +108,7 @@ const Mission = () => {
     >
       {/* Heading */}
       <motion.h1
-        className="text-3xl sm:text-4xl md:text-5xl mb-4 font-bold text-center"
+        className="text-3xl sm:text-4xl md:text-5xl mb-4 font-bold text-center text-black"
         variants={itemVariants}
       >
         Our Mission
@@ -116,7 +116,7 @@ const Mission = () => {
 
       {/* Paragraph */}
       <motion.p
-        className="text-center text-base sm:text-lg md:text-xl leading-relaxed max-w-3xl mb-8"
+        className="text-center text-base sm:text-lg md:text-xl leading-relaxed max-w-3xl mb-8 text-black"
         variants={itemVariants}
       >
         Chesco Connect is an accessible, modern digital hub designed to connect

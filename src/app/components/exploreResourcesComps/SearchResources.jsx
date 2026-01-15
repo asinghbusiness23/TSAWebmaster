@@ -881,7 +881,7 @@ const SearchResources = ({ placeholder = "Search resources..." }) => {
 
   return (
     <section className="py-40 flex flex-col items-center">
-      <h1 className="text-3xl mb-10 font-bold">
+      <h1 className="text-3xl mb-10 font-bold text-black">
         Explore Resources
       </h1>
 
@@ -962,7 +962,7 @@ const NewResource = ({ name, description, location, tel, url, filter }) => {
         ))}
       </div>
 
-      <h2 className="text-lg mb-2">{name}</h2>
+      <h2 className="text-lg mb-2 text-black">{name}</h2>
       <p className="text-gray-700 mb-6">{description}</p>
 
       <p className="text-gray-700 text-sm mb-1">

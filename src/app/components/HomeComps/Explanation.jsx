@@ -115,7 +115,7 @@ const Explanation = () => {
     <section className="flex flex-col items-center justify-center py-20 sm:py-40 px-4 sm:px-10 bg-white">
       {/* Heading */}
       <motion.h3
-        className="text-3xl sm:text-4xl md:text-5xl mb-4 font-bold text-center"
+        className="text-3xl sm:text-4xl md:text-5xl mb-4 font-bold text-center text-black"
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, ease: "easeOut" }}
@@ -170,7 +170,7 @@ const Step = ({ number, name, description }) => {
       <div className="rounded-full bg-blue-500 flex justify-center items-center w-16 sm:w-20 h-16 sm:h-20 mb-4 shadow-2xl">
         <p className="text-3xl sm:text-5xl text-white font-bold">{number}</p>
       </div>
-      <p className="text-lg sm:text-xl font-medium mb-2">{name}</p>
+      <p className="text-lg sm:text-xl font-medium mb-2 text-black">{name}</p>
       <p className="text-sm sm:text-base text-gray-500">{description}</p>
     </motion.div>
   );
