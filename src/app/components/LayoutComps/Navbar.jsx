@@ -302,7 +302,7 @@ const NavbarItem2 = ({ name, link, onClick }) => {
   return (
     <Link href={link} onClick={onClick}>
       <div className="relative overflow-hidden group cursor-pointer">
-        <p className=" lg:text-lg text-sm duration-300 py-2">
+        <p className=" lg:text-lg text-sm duration-300 py-2 text-black">
           {name}
         </p>
       </div>
