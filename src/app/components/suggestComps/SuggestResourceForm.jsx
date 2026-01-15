@@ -163,7 +163,7 @@ const SuggestResourceForm = () => {
                       key={cat}
                       whileHover={{ scale: 1.02 }}
                       whileTap={{ scale: 0.97 }}
-                      className="flex items-center gap-3 border rounded-xl px-4 py-2 cursor-pointer hover:bg-gray-50"
+                      className="flex items-center gap-3 border rounded-xl px-4 py-2 cursor-pointer hover:bg-gray-50 text-black"
                     >
                       <input
                         type="checkbox"
@@ -171,7 +171,7 @@ const SuggestResourceForm = () => {
                         onChange={() => handleCategoryChange(cat)}
                         className="accent-blue-600 text-black"
                       />
-                      <span>{cat}</span>
+                      <span className="text-black">{cat}</span>
                     </motion.label>
                   ))}
                 </div>
