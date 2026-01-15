@@ -939,7 +939,7 @@ const ReferencesPage = () => {
       {/* Freepik Image Links */}
       <motion.div className="mb-12 text-center" variants={item}>
         <h2 className="text-2xl font-semibold mb-4 text-black">Image Credits</h2>
-        <p className="text-lg mb-2">
+        <p className="text-lg mb-2 text-black">
           All images from Freepik and are certified for non-commerical use via
           the <strong>Freepik License</strong>
         </p>

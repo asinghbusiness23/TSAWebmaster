@@ -105,7 +105,7 @@ const SuggestResourceForm = () => {
                   onChange={handleChange}
                   placeholder="Your Name"
                   required
-                  className="border rounded-xl px-4 py-3 outline-none focus:ring-2 focus:ring-blue-500"
+                  className="border rounded-xl px-4 py-3 outline-none focus:ring-2 focus:ring-blue-500 text-black"
                 />
 
                 <input
@@ -115,7 +115,7 @@ const SuggestResourceForm = () => {
                   onChange={handleChange}
                   placeholder="Your Email"
                   required
-                  className="border rounded-xl px-4 py-3 outline-none focus:ring-2 focus:ring-blue-500"
+                  className="border rounded-xl px-4 py-3 outline-none focus:ring-2 focus:ring-blue-500 text-black"
                 />
 
                 <input
@@ -124,7 +124,7 @@ const SuggestResourceForm = () => {
                   value={formData.phone}
                   onChange={handleChange}
                   placeholder="Phone Number"
-                  className="border rounded-xl px-4 py-3 outline-none focus:ring-2 focus:ring-blue-500"
+                  className="border rounded-xl px-4 py-3 outline-none focus:ring-2 focus:ring-blue-500 text-black"
                 />
               </motion.div>
 
@@ -137,7 +137,7 @@ const SuggestResourceForm = () => {
                   onChange={handleChange}
                   placeholder="Resource Name"
                   required
-                  className="w-full border rounded-xl px-4 py-3 mb-4 outline-none focus:ring-2 focus:ring-blue-500"
+                  className="w-full border rounded-xl px-4 py-3 mb-4 outline-none focus:ring-2 focus:ring-blue-500 text-black"
                 />
 
                 <input
@@ -147,7 +147,7 @@ const SuggestResourceForm = () => {
                   onChange={handleChange}
                   placeholder="Website URL"
                   required
-                  className="w-full border rounded-xl px-4 py-3 outline-none focus:ring-2 focus:ring-blue-500"
+                  className="w-full border rounded-xl px-4 py-3 outline-none focus:ring-2 focus:ring-blue-500 text-black"
                 />
               </motion.div>
 
@@ -169,7 +169,7 @@ const SuggestResourceForm = () => {
                         type="checkbox"
                         checked={formData.categories.includes(cat)}
                         onChange={() => handleCategoryChange(cat)}
-                        className="accent-blue-600"
+                        className="accent-blue-600 text-black"
                       />
                       <span>{cat}</span>
                     </motion.label>

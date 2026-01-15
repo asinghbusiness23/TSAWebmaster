@@ -199,7 +199,7 @@ const BlogHero = () => {
             flex items-center justify-center
             w-full sm:w-auto
           "
-          href="/suggest"
+          href="/submitBlog"
         >
           <CiSquarePlus className="mr-1 text-2xl" />
           Submit A Story

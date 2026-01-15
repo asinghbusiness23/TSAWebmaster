@@ -8,7 +8,6 @@ import {
   FaSchool,
   FaCalendarAlt,
 } from "react-icons/fa";
-
 const stats = [
   {
     id: 1,

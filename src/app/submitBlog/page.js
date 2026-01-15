@@ -43,7 +43,7 @@ const SubmitBlogComp = () => {
                     type="text"
                     required
                     placeholder="Jane Doe"
-                    className="w-full px-4 py-3 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                    className="w-full px-4 py-3 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 text-black"
                   />
                 </div>
 
@@ -55,7 +55,7 @@ const SubmitBlogComp = () => {
                     type="email"
                     required
                     placeholder="jane@example.com"
-                    className="w-full px-4 py-3 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                    className="w-full px-4 py-3 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 text-black focus:ring-blue-500"
                   />
                 </div>
 
@@ -67,7 +67,7 @@ const SubmitBlogComp = () => {
                     type="text"
                     required
                     placeholder="Enter your blog title"
-                    className="w-full px-4 py-3 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                    className="w-full px-4 py-3 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 text-black focus:ring-blue-500"
                   />
                 </div>
 
@@ -79,7 +79,7 @@ const SubmitBlogComp = () => {
                     required
                     rows={8}
                     placeholder="Write your blog content here..."
-                    className="w-full px-4 py-3 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 resize-none"
+                    className="w-full px-4 py-3 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 text-black focus:ring-blue-500 resize-none"
                   />
                 </div>
 
@@ -89,7 +89,7 @@ const SubmitBlogComp = () => {
                   </label>
                   <select
                     required
-                    className="w-full px-4 py-3 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                    className="w-full px-4 py-3 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 text-black"
                   >
                     <option value="">Select a category</option>
                     <option>Health and Wellness</option>
