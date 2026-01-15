@@ -3,6 +3,7 @@ import React from "react";
 import { useParams } from "next/navigation";
 import { blogs } from "../blogsData";
 import { motion } from "framer-motion";
+import Link from 'next/link';
 import "bootstrap-icons/font/bootstrap-icons.css";
 
 
@@ -45,12 +46,12 @@ const BlogPage = () => {
           ))}
         </div>
 
-        <a
+        <Link
           href="/blogs"
           className="mt-8 inline-block px-6 py-3 rounded-full bg-blue-500 text-white font-semibold hover:scale-105 hover:shadow-lg transition-transform duration-200"
         >
           ← Back to Blogs
-        </a>
+        </Link>
       </div>
     </motion.div>
   );

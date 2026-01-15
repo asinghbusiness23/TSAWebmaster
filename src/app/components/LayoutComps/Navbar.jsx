@@ -210,7 +210,7 @@ const Navbar = () => {
             <NavbarItem name="References" link="/references" />
           </div>
 
-          <a
+          <Link
             href="/suggest"
             className="bg-blue-950 text-white py-2 px-6 rounded-2xl relative text-center group flex items-center overflow-hidden duration-150 text-sm lg:text-lg"
           >
@@ -220,7 +220,7 @@ const Navbar = () => {
             <span className="absolute inset-0 flex items-center justify-center text-2xl font-bold translate-x-full transition-transform duration-300 group-hover:translate-x-0">
               +
             </span>
-          </a>
+          </Link>
         </div>
 
         {/* Hamburger Button */}

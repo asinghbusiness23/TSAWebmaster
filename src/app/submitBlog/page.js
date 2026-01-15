@@ -3,8 +3,9 @@ import React, { useState } from "react";
 import Navbar from "../components/LayoutComps/Navbar";
 import Footer from "../components/LayoutComps/Footer";
 import { motion } from "framer-motion";
+import Link from 'next/link';
 
-const page = () => {
+const SubmitBlogComp = () => {
   const [submitted, setSubmitted] = useState(false);
 
   const handleSubmit = (e) => {
@@ -113,15 +114,15 @@ const page = () => {
                 Thank You for Your Submission!
               </h2>
               <p className="text-gray-600 mb-8">
-                We’ve received your blog and will review it shortly. If approved,
-                it will be published on Chesco Connect.
+                We’ve received your blog and will review it shortly. If
+                approved, it will be published on Chesco Connect.
               </p>
-              <a
+              <Link
                 href="/blogs"
                 className="inline-block px-6 py-3 bg-blue-500 text-white rounded-full font-semibold hover:scale-105 transition-transform duration-200"
               >
                 Back to Blogs
-              </a>
+              </Link>
             </div>
           )}
         </div>
@@ -130,6 +131,9 @@ const page = () => {
       <Footer />
     </div>
   );
+};
+const page = () => {
+  return <SubmitBlogComp></SubmitBlogComp>;
 };
 
 export default page;
